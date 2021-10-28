@@ -20,7 +20,7 @@ namespace Day_04_Task_5
                 bool isUnique = true;
                 for (int j = 0; j < arrSize; j++)
                 {
-                    if (arr[i] == arr[j] && i !=j)
+                    if (arr[i] == arr[j] && i != j)
                     {
                         isUnique = false;
                     }
