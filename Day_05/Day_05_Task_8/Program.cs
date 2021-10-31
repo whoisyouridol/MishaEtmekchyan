@@ -4,12 +4,14 @@ namespace Day_05_Task_8
 {
     class Program
     {
-       
-        static void Main(string[] args)
+        static int InputNumber()
         {
-            int num = 1230;
-            int power = 0;
+            return Convert.ToInt32(Console.ReadLine());
+        }
+        static string DecomposeNumber(int num)
+        {
             string result = "";
+            int power = 0;
             while (num > 0)
             {
                 int digit = num % 10;
@@ -20,7 +22,12 @@ namespace Day_05_Task_8
                 num /= 10;
                 power++;
             }
-            Console.WriteLine(result);
+            return result;
+        }
+        static void Main(string[] args)
+        {
+            var number = InputNumber();
+            Console.WriteLine(DecomposeNumber(number));
         }
     }
 }
