@@ -6,7 +6,11 @@ namespace Day_05_Task_8
     {
         static int InputNumber()
         {
-            return Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please, input a whole positive number : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num < 1)
+                return 0;
+            else return num;
         }
         static string DecomposeNumber(int num)
         {
