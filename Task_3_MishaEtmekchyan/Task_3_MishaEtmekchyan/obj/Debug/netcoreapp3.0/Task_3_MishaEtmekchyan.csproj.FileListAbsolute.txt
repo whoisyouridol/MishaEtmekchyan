@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\obj\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\obj\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.AssemblyInfo.cs
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.exe
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.deps.json
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.runtimeconfig.json
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.runtimeconfig.dev.json
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.dll
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\bin\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.pdb
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\obj\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.dll
+C:\Users\PC\source\repos\Task_3_MishaEtmekchyan\Task_3_MishaEtmekchyan\obj\Debug\netcoreapp3.0\Task_3_MishaEtmekchyan.pdb
