@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Military\**" />
+    <Compile Remove="Public\**" />
+    <Compile Remove="Sport\**" />
+    <Compile Remove="Standart\**" />
+    <EmbeddedResource Remove="Military\**" />
+    <EmbeddedResource Remove="Public\**" />
+    <EmbeddedResource Remove="Sport\**" />
+    <EmbeddedResource Remove="Standart\**" />
+    <None Remove="Military\**" />
+    <None Remove="Public\**" />
+    <None Remove="Sport\**" />
+    <None Remove="Standart\**" />
+  </ItemGroup>
+
+</Project>
