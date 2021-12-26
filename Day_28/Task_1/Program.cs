@@ -23,7 +23,12 @@ namespace Task_1
         {
             var tokenSrc = new CancellationTokenSource();
             List<Task> tasks = new List<Task>(10);
-            tasks.Add(Task.Run(() => 
+            
+            for (int i = 1; i < 10; i++)
+            {
+                tasks.Add(Task.Run(() => WriteToFile(i, tokenSrc.Token)));
+            }
+            tasks.Add(Task.Run(() =>
             {
                 Console.WriteLine("Stop ?");
                 var ans = Console.ReadLine();
@@ -32,11 +37,6 @@ namespace Task_1
                     tokenSrc.Cancel();
                 }
             }));
-            for (int i = 1; i < 10; i++)
-            {
-                tasks.Add(Task.Run(() => WriteToFile(i, tokenSrc.Token)));
-            }
-
             await Task.WhenAll(tasks);
 
 
