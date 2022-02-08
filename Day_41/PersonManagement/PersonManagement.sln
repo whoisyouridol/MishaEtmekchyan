@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement", "PersonManagement\PersonManagement.csproj", "{A6EBE006-94E1-45C3-9888-474778D1E921}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Services", "PersonManagement.Services\PersonManagement.Services.csproj", "{BF13159D-CC01-4C9F-9EBD-44B5D086F8E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.DataADO", "PersonManagement.DataADO\PersonManagement.DataADO.csproj", "{C0272E77-522E-4B4B-B5F1-4DCFBD1C05A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Domain", "PersonManagement.Domain\PersonManagement.Domain.csproj", "{D99A7D01-45CA-4610-87C5-2D432440BAEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonManagement.Data", "PersonManagement.Data\PersonManagement.Data.csproj", "{48FC72B0-0B06-4355-9E69-D543E1F731FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailService", "MailService\MailService.csproj", "{D15CCDDC-7610-43D2-97AD-DF7A90BCAC8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6EBE006-94E1-45C3-9888-474778D1E921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EBE006-94E1-45C3-9888-474778D1E921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EBE006-94E1-45C3-9888-474778D1E921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EBE006-94E1-45C3-9888-474778D1E921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF13159D-CC01-4C9F-9EBD-44B5D086F8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF13159D-CC01-4C9F-9EBD-44B5D086F8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF13159D-CC01-4C9F-9EBD-44B5D086F8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF13159D-CC01-4C9F-9EBD-44B5D086F8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0272E77-522E-4B4B-B5F1-4DCFBD1C05A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0272E77-522E-4B4B-B5F1-4DCFBD1C05A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0272E77-522E-4B4B-B5F1-4DCFBD1C05A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0272E77-522E-4B4B-B5F1-4DCFBD1C05A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99A7D01-45CA-4610-87C5-2D432440BAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99A7D01-45CA-4610-87C5-2D432440BAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99A7D01-45CA-4610-87C5-2D432440BAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99A7D01-45CA-4610-87C5-2D432440BAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FC72B0-0B06-4355-9E69-D543E1F731FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC72B0-0B06-4355-9E69-D543E1F731FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC72B0-0B06-4355-9E69-D543E1F731FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC72B0-0B06-4355-9E69-D543E1F731FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15CCDDC-7610-43D2-97AD-DF7A90BCAC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15CCDDC-7610-43D2-97AD-DF7A90BCAC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15CCDDC-7610-43D2-97AD-DF7A90BCAC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15CCDDC-7610-43D2-97AD-DF7A90BCAC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABC3AF0F-74B9-4DA1-8E55-2E628FC47920}
+	EndGlobalSection
+EndGlobal
