@@ -18,6 +18,7 @@ namespace PersonsManagementSystem.Infrastructure
 
             TypeAdapterConfig<PersonModel, GetPersonDTO>.
                 NewConfig();
+
         }
     }
 }

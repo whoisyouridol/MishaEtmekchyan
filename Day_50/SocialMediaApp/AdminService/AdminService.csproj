@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.28" />
+    <PackageReference Include="Mapster" Version="7.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackgroundJobService\BackgroundJobService.csproj" />
+    <ProjectReference Include="..\SocialMediaApp.Data\SocialMediaApp.Data.csproj" />
+    <ProjectReference Include="..\ValidateService\ValidateService.csproj" />
+    <ProjectReference Include="..\WorkWithDbService\SocialMediaApp.PersistanceDB.csproj" />
+  </ItemGroup>
+
+</Project>
